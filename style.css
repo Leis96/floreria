@@ -1,0 +1,140 @@
+.container-fluid img {
+    width: 170px;
+    height: 150px;
+    background-size:cover;
+}
+
+.nav-items a {
+    color:crimson;
+}
+
+.dropdown-menu li a {
+    text-align: center;
+}
+
+form #btns {
+    border-color: crimson;
+    color: crimson;
+}
+
+form #btns:hover {
+    border-color: crimson;
+    background-color: crimson;
+    color: #ffffff;
+}
+
+.container {
+    width: 500px;
+}
+
+div .card {
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 287px;
+    height: 350px;
+    align-items: center;
+}
+
+body h1{
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+}
+
+.card-body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-body svg {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    margin-bottom: 5px; 
+}
+
+.link {
+    background-color: crimson;
+}
+
+.link button a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.carrito_de_compras .item1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.item1 img {
+    width: 25px;
+    height: 25px;
+}
+
+div .text {
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 250px;
+    margin-left:20px;
+    margin-top: 50px;
+}
+div .text::placeholder{
+    color: #9a9494;
+}
+
+div .boton {
+    background-color: rgb(68, 68, 199);
+    margin-left: 10px;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #ffffff;
+    height: 40px;
+    width: 70px;
+}
+
+.content-inf .inf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inf p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;  
+}
+
+.inf p:last-child{
+    font-size: 16px;
+    color: #9a9494;
+    padding-right: 10px;
+}
+
+.boton-compra{
+    margin: 0 30%;
+    border: 2px solid rgb(12, 12, 140);
+    margin-top: 100px;
+}
+.boton-compra a {
+    text-decoration: none;
+    color: #ffffff;
+    padding:15px;
+}
+
+.boton-compra svg {
+    width: 18px;
+    height: 18px;
+}
